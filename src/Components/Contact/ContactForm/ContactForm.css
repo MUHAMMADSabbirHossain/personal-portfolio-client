@@ -1,0 +1,43 @@
+.form-area{
+    padding: 0 100px 100px 100px;
+}
+.form-container{
+    background-color: #3C3E42;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0 0 40px 15px #292a2c;
+}
+.form-input{
+    width: 80%;
+    margin-top: 30px;
+    border-color: red;
+    padding: 5px;
+}
+.form-container label{
+    color: white;
+}
+.send-button{
+    background: #a21c44;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 0 0 40px 15px #2f2f31;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.send-button:hover{
+    box-shadow: none;
+    background: #ce0d47;
+}
+
+@media only screen and (max-width: 750px){
+    .form-input{
+        width: 100%;
+    }
+}

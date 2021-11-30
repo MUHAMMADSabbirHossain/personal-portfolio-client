@@ -1,0 +1,22 @@
+.MuiDrawer-paper{
+    justify-content: space-between;
+    background: #181818 !important;
+    color: #d11818;
+}
+.MuiAppBar-colorPrimary{
+    background: #181818 !important;
+}
+.menuItems-common{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menuItems-common a{
+    margin: 10px;
+}
+.menuItems-bottom a{
+    color: lightgray;
+}
