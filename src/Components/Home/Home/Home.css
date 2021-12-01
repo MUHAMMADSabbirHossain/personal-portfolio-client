@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .home-container{
-    background: #212428;
+    background-color: #212428;
 }
 .home-info {
     height: 100vh;
@@ -107,7 +107,7 @@
             font-size: 35px;
         }
         .text-title{
-            display: none;
+            display: block;
         }
         .contact-button{
             margin-top: 40px;

@@ -5,7 +5,7 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className="about-area">
+        <div className="about-section" style={{backgroundColor:"#212428"}}>
             <Menubar />
             <div className="about-container">
             <div className="about-img">
