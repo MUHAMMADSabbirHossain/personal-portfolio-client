@@ -4,6 +4,7 @@ import Menubar from '../../Shared/Menubar/Menubar';
 import meimg from '../../../resource/me.jpeg';
 import TypeWriterEffect from 'react-typewriter-effect';
 
+
 import './Home.css';
 
 const Home = () => {

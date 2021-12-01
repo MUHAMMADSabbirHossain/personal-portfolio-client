@@ -6,9 +6,15 @@
     "git_server":"https://github.com/simplysamiul/dwelling-car-server",
     "live_link":"https://dwelling-car.web.app/",
     "project_img_main":"https://i.ibb.co/1TgKkg7/dwelling.png",
-    "project_img_one":"178.51.96.185",
-    "project_img_two":"222.136.104.234",
-    "project_des":"175.24.30.64"
+    "project_img_one":"https://i.ibb.co/dsT8Gd7/dwelling.png",
+    "project_img_two":"https://i.ibb.co/f1nHPpm/dwelling.png",
+    "project_des":"This website based on car seeling.Ther are are more companies car's and if you want then you can buy orders your car and buy that car.In this website 1st of all you can see home page there have almost 7 section. Those are menubar banner some car's that we are offer you some car service client's review discount offer and footer.if you login then you can see more option in the menubar those are explore dashboard and logout.If you go to the explore page there are you can see all showroom all car's listed here.",
+    "short-desk":{
+        "one":"If you aren't log-in then you can only see home and explore option in the menubar.Then if you want given booking any car you can't you are goin to login page then if you alreade regester then you can login otherwise 1st of all you can do login.After the login you can go where are you want to went.",
+        "two": "In the booking page you can see this car full details like (mileage, engine, price, colour, transmission etc).Then if you want to give final booking click place order then you can see a modal there are mst be given your name your email, your phone numbe if you want to order this car.",
+        "three":"After given the information if you click the submit button then place this order."
+        
+    }
 },
 {
     "number":2,
@@ -18,9 +24,8 @@
     "git_server":"https://github.com/simplysamiul/doctors-portal-server",
     "live_link":"https://doctor-s-portal-f328c.web.app/",
     "project_img_main":"https://i.ibb.co/s36cwsq/doctors.png",
-    "project_img_one":"214.45.200.43",
-    "project_img_two":"175.234.165.84",
-    "project_des":"46.139.203.44"
+    "project_img_one":"https://i.ibb.co/cJgsYsS/doctors.png",
+    "project_img_two":"https://i.ibb.co/993n94G/doctor.png"
 },
 {
     "number":3,
@@ -30,9 +35,9 @@
     "git_server":"https://github.com/simplysamiul/ema-john-e-commerece",
     "live_link":"https://e-commerce-auth-d6e3c.web.app/",
     "project_img_main":"https://i.ibb.co/4McThGT/ema-jhon.png",
-    "project_img_one":"138.96.99.66",
-    "project_img_two":"208.69.184.156",
-    "project_des":"40.63.216.148"
+    "project_img_one":"https://i.ibb.co/jv00SqY/ema.png",
+    "project_img_two":"https://i.ibb.co/V3cDF0V/ema.png",
+    "project_des":"In this project I am try to make using react.js, vanila css and also external packege that is for control specific case. I would to try make a e-commerce project and I am partly suucess about my thinking. In this project have some product card and there are have product price and product details. Also have a price cart there is counting your selected product price and product quantity. I was using localStorage in this project for this reason if you selected such as 4 product then if you reload this page or leave this page but it will be selected. Then if you click review order you can see which was the product you selected. Then if you want you can remove your selected product.After that if you select place order then finally submited all product."
 },
 {
     "number":4,
@@ -42,9 +47,15 @@
     "git_server":"https://github.com/simplysamiul/Let-s-Begain-Server/tree/main",
     "live_link":"https://let-s-begin-tourism.web.app/",
     "project_img_main":"https://i.ibb.co/1M1rwhq/let-begain.png",
-    "project_img_one":"58.160.50.32",
-    "project_img_two":"134.18.153.115",
-    "project_des":"140.147.119.213"
+    "project_img_one":"https://i.ibb.co/SQg3rwg/let-begain.png",
+    "project_img_two":"https://i.ibb.co/Vm2R484/let-begain.png",
+    "project_des":"This website offering you some umrah pckage with Turkey, Egypt and others country tour.We are like a travel agency. We are also help you for 20 differnt country to do visa.We have some featues inside of the website.",
+    "short-desk":{
+        "one":"You can select any package.",
+        "two": "If you want to see more details about package then 1st of all you must be sign use using your google account.",
+        "three":"Then you can see more details about this package then if you want to place your order."
+        
+    }
 },
 {
     "number":5,
@@ -54,9 +65,14 @@
     "git_server":"https://github.com/simplysamiul/our-clinic",
     "live_link":"https://ours-clinic.web.app/",
     "project_img_main":"https://i.ibb.co/jkj7Nbv/our-clinic.png",
-    "project_img_one":"9.219.112.205",
-    "project_img_two":"71.157.39.80",
-    "project_des":"135.199.20.254"
+    "project_img_one":"https://i.ibb.co/f1SG73n/clinic.png",
+    "project_img_two":"https://i.ibb.co/JmgSJR7/clinic.png",
+    "project_des":"This is healtcare website. There are have some service for patent.In the home page you can see 6 service each service have a button if you want to see more details about this service then first of all go to login or sign up page then go to which service that you you want to see.",
+    "short-desk":{
+        "one":"If you sign up using google account then you can see your image and name top right side inisde of the navbar.",
+        "two": "If you want to go doctors page then you can't go if you aren't login.",
+        "three":"This site is totally responsive for mobile and tabel."
+    }
 },
 {
     "number":6,
@@ -66,9 +82,14 @@
     "git_server":"https://github.com/simplysamiul/global-university",
     "live_link":"https://global-university-bd.netlify.app/",
     "project_img_main":"https://i.ibb.co/L5ytDpR/university.png",
-    "project_img_one":"115.205.103.242",
-    "project_img_two":"47.73.164.241",
-    "project_des":"151.33.154.94"
+    "project_img_one":"https://i.ibb.co/LgvyN7Z/university.png",
+    "project_img_two":"https://i.ibb.co/2tJsrjR/university.png",
+    "project_des":"This is a university website that name is (Global-University). This website created used by React.js, Vanilla Css, Material Ui tht is a css framework, recharts, and other packes for specific page. In his project have 5 pages for each page have a router if you give rando url of the website url then you can see the NotFound page or 4O4 page.",
+    "short-desk":{
+        "one":"In this website use real chart application.",
+        "two": "Useage specific route and 4o4 page .",
+        "three":"It's a singel page application (SPA)"
+    }
 },
 {
     "number":7,
@@ -78,7 +99,12 @@
     "git_server":"https://github.com/simplysamiul/2021-latest-bikes",
     "live_link":"https://2021-biikes-list.netlify.app/",
     "project_img_main":"https://i.ibb.co/hVFfxgh/bike.png",
-    "project_img_one":"187.235.172.78",
-    "project_img_two":"247.208.2.97",
-    "project_des":"45.121.234.147"
+    "project_img_one":"https://i.ibb.co/mHWqbxs/bike.png",
+    "project_img_two":"https://i.ibb.co/n8g0tHW/bike.png",
+    "project_des":"In this project I'm creatred for Who want to buy 2021's latest bike. There are have some latest bike that is released in 2021. And by this concept I was created this project. This website made by using React.Js that is libary of vanila js. And it's hook based like: useEffect, useState. Also use vanila css and other package for specific reason",
+    "short-desk":{
+        "one":"Inside of each card have bike model name, made company, price (Bdt), customer rating and a buying button.",
+        "two": "Top of the card area have 2 files first one for bike selected number another one is total selected bike price.",
+        "three":"If you click how much buy button then you can see where was had bike selected field there are show how much bike you selected also you can see total bike price that was you selected."
+    }
 }]

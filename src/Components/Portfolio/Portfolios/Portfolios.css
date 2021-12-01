@@ -1,0 +1,36 @@
+.portfolio-section{
+    background-color: #212428;
+}
+.portfolios-area h1{
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.portfolios-area span{
+    color: #ff014f;
+}
+.portfolios-container{
+    padding: 60px 60px 60px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+}
+@media only screen and (max-width: 650px){
+    .portfolios-container{
+        padding: 50px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 999px) and (min-width: 599px){
+    .portfolios-container{
+        padding: 60px 60px 60px 100px;
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 651px){
+    .portfolios-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

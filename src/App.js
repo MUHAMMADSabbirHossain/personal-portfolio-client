@@ -11,14 +11,14 @@ import About from './Components/About/About/About';
 import Project from './Components/Project/Project/Project';
 import Contact from './Components/Contact/Contact/Contact';
 import Blog from './Components/Blog/Blog/Blog';
-import Portfolio from './Components/Portfolio/Portfolio/Portfolio';
+import Portfolios from './Components/Portfolio/Portfolios/Portfolios';
 function App() {
   const [loading, SetLoading] = useState(false);
   useEffect(()=>{
     SetLoading(true);
     setTimeout(() =>{
        SetLoading(false);
-    }, 4000);
+    }, 1000);
   },[]);
   return (
     <div className="App">
@@ -44,7 +44,7 @@ function App() {
             <About />
           </Route>
           <Route path="/portfolio">
-            <Portfolio />
+            <Portfolios />
           </Route>
           <Route path="/project">
             <Project />
