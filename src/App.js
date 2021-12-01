@@ -12,6 +12,7 @@ import Project from './Components/Project/Project/Project';
 import Contact from './Components/Contact/Contact/Contact';
 import Blog from './Components/Blog/Blog/Blog';
 import Portfolios from './Components/Portfolio/Portfolios/Portfolios';
+import MoreDetails from './Components/Details/MoreDetails/MoreDetails';
 function App() {
   const [loading, SetLoading] = useState(false);
   useEffect(()=>{
@@ -43,7 +44,7 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/portfolio">
+          <Route exact path="/portfolio">
             <Portfolios />
           </Route>
           <Route path="/project">
@@ -54,6 +55,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/portfolio/:id">
+          <MoreDetails />
           </Route>
         </Switch>
       </Router>

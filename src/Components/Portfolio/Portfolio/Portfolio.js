@@ -1,8 +1,9 @@
+import { Button } from '@mui/material';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './Portfolio.css';
 const Portfolio = ({ portfolio }) => {
-    const {project_img_main, project_name, technology, live_link, git_client}= portfolio;
+    const {project_img_main, project_name, technology, live_link, git_client, _id}= portfolio;
     return (
         <div className="portfolio-area">
             <div className="portfolio-card">
@@ -14,9 +15,9 @@ const Portfolio = ({ portfolio }) => {
                     <h5>Technology : </h5>
                     <p>{technology}</p>
                     <div className="card-footer">
-                        <a href={live_link}>Live</a>
-                        <a href={git_client}>Code</a>
-                        <Link to="/">Details</Link>
+                        <a className="see-button" href={live_link}>Live</a>
+                        <a className="see-button" href={git_client}>Code</a>
+                        <Link to={`/portfolio/${_id}`}><Button className="see-button">Details</Button></Link>
                     </div>
                 </div>
             </div>
