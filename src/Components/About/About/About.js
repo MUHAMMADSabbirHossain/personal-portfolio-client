@@ -13,7 +13,7 @@ const About = () => {
             </div>
                 <div className="about-info">
                     <h1><span>About</span> Me</h1>
-                    <p>Hi, This is <span>Md. Samiul Islam</span>. A passionate MERN stack web developer from Bangladesh. Recently I have completed my course. There are I'm making some web application projects those are made by using: js, react js, react-router-dom, Firebase, nodejs, express js, MongoDB, and also tools and technology. I'm very much curious for knowing about web development, programming, and new growing technology.</p>
+                    <p>Hi, This is <span>Md. Samiul Islam</span>. A passionate <span>MERN</span> stack web developer from Bangladesh. Recently I have completed my course. There are I'm making some web application projects those are made by using: js, react js, react-router-dom, Firebase, nodejs, express js, MongoDB, and another tools and technology.Also I'm skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, and Back End technologies such as Node.JS, Express JS and MongoDb. I'm very much curious for knowing about web development, programming, and new growing technology.</p>
                 </div>
            
             <div className="social-area">
