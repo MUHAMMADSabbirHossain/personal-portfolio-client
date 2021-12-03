@@ -9,14 +9,18 @@ const About = () => {
             <Menubar />
             <div className="about-container">
             <div className="about-img">
-                <img src={meOne} alt="" />
+                <img data-aos="zoom-in" data-aos-duration="2000" src={meOne} alt="" />
             </div>
                 <div className="about-info">
-                    <h1><span>About</span> Me</h1>
-                    <p>Hi, This is <span>Md. Samiul Islam</span>. A passionate <span>MERN</span> stack web developer from Bangladesh. Recently I have completed my course. There are I'm making some web application projects those are made by using: js, react js, react-router-dom, Firebase, nodejs, express js, MongoDB, and another tools and technology.Also I'm skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, and Back End technologies such as Node.JS, Express JS and MongoDb. I'm very much curious for knowing about web development, programming, and new growing technology.</p>
-                </div>
+                    <h1 data-aos="fade-down" 
+                    data-aos-easing="linear" 
+                    data-aos-duration="1500"><span>About</span> Me</h1>
+                    <p data-aos="fade-up"
+                    data-aos-duration="2000">Hi, This is <span>Md. Samiul Islam</span>. A passionate <span>MERN</span> stack web developer from Bangladesh. Recently I have completed my course. There are I'm making some web application projects those are made by using: js, react js, react-router-dom, Firebase, nodejs, express js, MongoDB, and another tools and technology.Also I'm skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, and Back End technologies such as Node.JS, Express JS and MongoDb. I'm very much curious for knowing about web development, programming, and new growing technology.</p>
+                    </div>
            
-            <div className="social-area">
+            <div data-aos="fade-up"
+                    data-aos-duration="2000" className="social-area">
                 <h2>Know More <span>About Me</span></h2>
                 <div className="social-icon">
                     <a title="Facebook" href="https://www.facebook.com/simplysamiul" target="_blank"><i className="fab fa-facebook-square"></i></a>

@@ -5,7 +5,8 @@ import './Portfolio.css';
 const Portfolio = ({ portfolio }) => {
     const {project_img_main, project_name, technology, live_link, git_client, _id}= portfolio;
     return (
-        <div className="portfolio-area">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" data-aos-duration="4000" data-aos-delay="300" className="portfolio-area">
             <div className="portfolio-card">
                 <div className="portfolio-img">
                     <img src={project_img_main} alt="" />

@@ -12,10 +12,17 @@ const Home = () => {
         <div className="home-container">
             <Menubar />
             <div className="home-info">
-            <img src={meimg} alt="" />
-            <h1>Hi, I'm <span>Md.Samiul Islam</span> </h1>
+            <img data-aos="zoom-in" data-aos-duration="2000" src={meimg} alt="" />
+            <h1 data-aos="fade-down" 
+            data-aos-easing="linear" 
+            data-aos-duration="1500">
+            Hi, I'm <span>Md.Samiul Islam</span> 
+            </h1>
             <div className="text-title">
-                <h2>A, </h2>
+                <h2 data-aos="zoom-in" 
+                data-aos-easing="linear" 
+                data-aos-duration="1000">A, 
+                </h2>
                 <TypeWriterEffect
                         textStyle={{
                         fontFamily: 'Roboto Condensed',
@@ -37,9 +44,9 @@ const Home = () => {
                         typeSpeed={50}
                     />
             </div>
-            <div className="contact-button">
+            <div className="contact-button" data-aos="flip-down" data-aos-duration="2000">
                 <a className="cv-button" href="https://drive.google.com/file/d/19-HP3Q5QgdovGvShip89WuMYIi9dsyfF/view?usp=sharing" target="_blank"><i className="far fa-file-alt contact-icon"></i> See Cv</a>
-                <Link className="contact-btn" to="/contact"><i className="far fa-comments contact-icon"></i> Contact</Link>
+                <Link className="contact-btn" to="/contact"><i className="far fa-comments contact-icon" ></i> Contact</Link>
             </div>
             </div>
         </div>

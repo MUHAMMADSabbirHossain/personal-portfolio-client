@@ -23,7 +23,8 @@ const ContactForm = () => {
     };
     return (
        <div className="form-area">
-            <div className="form-container">
+            <div data-aos="fade-up" 
+            data-aos-duration="2000" className="form-container">
             <form onSubmit={handleSubmit(onSubmit)}>
             <TextField {...register("name")} className="form-input" type="text" name="name" id="standard-basic" label="Your name" variant="standard" required /><br />
             <TextField {...register("email")} className="form-input" type="email" name="email" id="standard-basic" label="Your email" variant="standard" required  /><br />

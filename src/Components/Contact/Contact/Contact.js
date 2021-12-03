@@ -8,30 +8,46 @@ const Contact = () => {
         <div className="contact-area">
             <Menubar />
             <div className="contact-container">
-                <h3><span>Get</span> In Touch , </h3>
+                <h3 data-aos="fade-down" 
+                data-aos-easing="linear" 
+                data-aos-duration="1500"><span>Get</span> In Touch , </h3>
                 <div className="touch-info">
-                    <div className="touch-data">
+                    <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500"
+                    className="touch-data">
                     <i className="fas fa-map-marker-alt"></i>
                     <div>
                         <h4>Address</h4>
                         <p>Dhaka-1246 Bangladesh</p>
                     </div> 
                     </div>
-                    <div className="touch-data">
+                    <div className="touch-data" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500">
                     <i className="fas fa-at"></i>
                     <div>
                         <h4>Email</h4>
                         <p>dev.samiulhowlader@gmail.com</p>
                     </div>
                     </div>
-                    <div className="touch-data">
+                    <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500"
+                    className="touch-data">
                     <i className="fas fa-phone-alt"></i>
                     <div>
                         <h4>Phone</h4>
                         <p>Ban - (+880) 173 5006 481</p>
                     </div>
                     </div>
-                    <div className="touch-data">
+                    <div className="touch-data" data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500">
                     <i className="fab fa-github"></i>
                     <div>
                         <h4>Github</h4>
@@ -39,7 +55,9 @@ const Contact = () => {
                     </div>
                     </div>  
                 </div>
-                <h3><span>Contact</span> Form</h3>
+                <h3 data-aos="fade-up" 
+            data-aos-easing="linear" 
+            data-aos-duration="1500"><span>Contact</span> Form</h3>
                 <ContactForm />
             </div>
         </div>
