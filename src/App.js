@@ -19,7 +19,7 @@ function App() {
     SetLoading(true);
     setTimeout(() =>{
        SetLoading(false);
-    }, 1000);
+    }, 3000);
   },[]);
   return (
     <div className="App">
