@@ -6,7 +6,7 @@ const Blog = () => {
     return (
         <div>
             <Menubar />
-            <h1>Blog Will be coming soon ....</h1>
+            <h1 style={{textAlign:"center"}}>Blog Will be coming soon ....</h1>
         </div>
     );
 };

@@ -6,7 +6,7 @@ const Project = () => {
     return (
         <div>
             <Menubar />
-            <h1>Project will be coming soon</h1>
+            <h1 style={{textAlign:"center"}}>Project will be coming soon...</h1>
         </div>
     );
 };

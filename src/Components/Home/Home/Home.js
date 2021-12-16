@@ -44,8 +44,8 @@ const Home = () => {
                         typeSpeed={50}
                     />
             </div>
-            <div className="contact-button" data-aos="flip-down" data-aos-duration="2000">
-                <a className="cv-button" href="https://drive.google.com/file/d/19-HP3Q5QgdovGvShip89WuMYIi9dsyfF/view?usp=sharing" target="_blank"><i className="far fa-file-alt contact-icon"></i> See Cv</a>
+            <div className="contact-button">
+                <a className="cv-button" href="https://drive.google.com/file/d/11OMx2Hty65Z61oRgY7BJ-gncHqeKhsMg/view?usp=sharing" target="_blank"><i className="far fa-file-alt contact-icon"></i> See Cv</a>
                 <Link className="contact-btn" to="/contact"><i className="far fa-comments contact-icon" ></i> Contact</Link>
             </div>
             </div>
