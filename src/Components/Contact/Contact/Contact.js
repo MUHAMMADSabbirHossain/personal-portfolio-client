@@ -10,12 +10,12 @@ const Contact = () => {
             <div className="contact-container">
                 <h3 data-aos="fade-down" 
                 data-aos-easing="linear" 
-                data-aos-duration="1500"><span>Get</span> In Touch , </h3>
+                data-aos-duration="1000"><span>Get</span> In Touch , </h3>
                 <div className="touch-info">
                     <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
-                    data-aos-duration="1500"
+                    data-aos-duration="1000"
                     className="touch-data">
                     <i className="fas fa-map-marker-alt"></i>
                     <div>
@@ -26,7 +26,7 @@ const Contact = () => {
                     <div className="touch-data" data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
-                    data-aos-duration="1500">
+                    data-aos-duration="1000">
                     <i className="fas fa-at"></i>
                     <div>
                         <h4>Email</h4>
@@ -36,7 +36,7 @@ const Contact = () => {
                     <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
-                    data-aos-duration="1500"
+                    data-aos-duration="1000"
                     className="touch-data">
                     <i className="fas fa-phone-alt"></i>
                     <div>
@@ -47,7 +47,7 @@ const Contact = () => {
                     <div className="touch-data" data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine"
-                    data-aos-duration="1500">
+                    data-aos-duration="1000">
                     <i className="fab fa-github"></i>
                     <div>
                         <h4>Github</h4>
