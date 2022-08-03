@@ -10,7 +10,7 @@ const About = () => {
         SetLoading(true);
         setTimeout(() =>{
         SetLoading(false);
-        }, 3000);
+        }, 2000);
     },[]);
     return (
         <>
@@ -32,7 +32,7 @@ const About = () => {
                         data-aos-easing="linear" 
                         data-aos-duration="1500"><span>About</span> Me</h1>
                         <p data-aos="fade-up"
-                        data-aos-duration="2000">Hi, This is <span>Md. Samiul Islam</span>. A passionate <span>MERN</span> stack web developer from Bangladesh. Recently I have completed my course. There are I'm making some web application projects those are made by using: js, react js, react-router-dom, Firebase, nodejs, express js, MongoDB, and another tools and technology.Also I'm skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, and Back End technologies such as Node.JS, Express JS and MongoDb. I'm very much curious for knowing about web development, programming, and new growing technology.</p>
+                        data-aos-duration="1000">Hi, This is <span>Md. Samiul Islam</span>. A passionate <span>MERN</span> stack web and <span>React Native</span> developer from Bangladesh. Now this time I'm working with react js, redux, node js, express js, next js, React Native etc technology. I'm looking to build my career as a software professional. And I always famishing to take on challenges and solve problems.</p>
                         </div>
             
                 <div data-aos="fade-up"
