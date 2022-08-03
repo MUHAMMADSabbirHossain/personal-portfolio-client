@@ -45,7 +45,7 @@ const Home = () => {
                     />
             </div>
             <div className="contact-button">
-                <a className="cv-button" href="https://drive.google.com/file/d/11OMx2Hty65Z61oRgY7BJ-gncHqeKhsMg/view?usp=sharing" target="_blank"><i className="far fa-file-alt contact-icon"></i> See Cv</a>
+                <a className="cv-button" href="https://drive.google.com/file/d/1HSLIuF7DaZSOl7O5baC7ggGsjFYyqv2f/view?usp=sharing" rel="noreferrer" target="_blank"><i className="far fa-file-alt contact-icon"></i> See Cv</a>
                 <Link className="contact-btn" to="/contact"><i className="far fa-comments contact-icon" ></i> Contact</Link>
             </div>
             </div>

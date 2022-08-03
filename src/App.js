@@ -6,7 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import HashLoader from "react-spinners/HashLoader";
+import {PuffLoader} from "react-spinners";
 import About from './Components/About/About/About';
 import Project from './Components/Project/Project/Project';
 import Contact from './Components/Contact/Contact/Contact';
@@ -26,7 +26,7 @@ function App() {
       {loading ? 
       
       <div className="display-loading">
-        <HashLoader
+        <PuffLoader
         color={"#ff014f"} 
         loading={loading}
         size={100} />
